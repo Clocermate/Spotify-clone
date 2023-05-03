@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Spotify - Your music area 🎧🎵</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <nav>
-        <ul>
-            <li class="brand"><img src="logo.png" alt="logo">Spotify</li>
-            <li>Home</li>
-            <li>About</li>
-        </ul>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="logo" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
     </nav>
-</body>
+    <div class="container">
+      <h1>Best of NCS-No Copyright Sounds</h1>
+      <div class="songlist"></div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" max="100" />
+    <div class="icons">
+        <i class="far fa-3x sharp fa-solid fa-backward-step"></i>
+        <i class="far fa-3x fa-circle-play"></i>
+        <i class="far fa-3x sharp fa-solid fa-forward-step"></i>
+
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e57209116f.js" crossorigin="anonymous"></script>
+  </body>
 </html>
