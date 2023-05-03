@@ -34,6 +34,7 @@ nav ul li{
     min-height: 75vh;
     background-color: black;
     color: white;
+    font-family: 'Varela Round',sans-serif;
 }
 .bottom{
     position: sticky;
