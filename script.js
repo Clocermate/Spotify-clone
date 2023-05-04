@@ -1,14 +1,14 @@
 console.log("Welcome to Spotify");
 //Variable Initializing
 let songIndex = 0;
-let audioElement = new Audio("songs/1.mp3");
+let audioElement = new Audio("songs/Faded-Love.mp3");
 let masterPlay = document.getElementById("masterPlay");
 let gif = document.getElementById("gif");
 let myProgressBar = document.getElementById("myProgressBar");
 let songs = [
   {
-    songnames: "Salam-e-Ishq",
-    filePath: "sogs/1.mp3",
+    songnames: "Faded Love",
+    filePath: "sogs/Faded-Love.mp3",
     coverPath: "covers/1.jpg",
   },
   {

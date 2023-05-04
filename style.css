@@ -74,14 +74,14 @@ nav ul li{
     display: flex;
     background-color: white;
     color: black;
-    margin: 12px 0;
+    margin: 30px 0;
     justify-content: space-between;
     align-items: center;
     border-radius: 34px;
 }
 .songItem img{
-    width: 23px;
-    margin: 23px 0;
+    width: 60px;
+    margin: 20px 0;
     border-radius: 23px;
 }
 .timestamp{
